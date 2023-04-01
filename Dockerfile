@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install flask openai twilio waitress
+RUN pip install flask openai twilio waitress dotenv
 
 EXPOSE 8085/tcp
 
